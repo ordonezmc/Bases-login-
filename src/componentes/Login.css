@@ -1,0 +1,118 @@
+/* Estilos del contenedor */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #5f73ff, #b397ff);
+  }
+  
+  /* Tarjeta de login */
+  .login-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Encabezado */
+  .login-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcome-icon {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    color: #4b4b6a;
+    font-weight: bold;
+  }
+  
+  .login-header p {
+    color: #9e9eaf;
+    margin-top: 0.3rem;
+  }
+  
+  /* Formulario */
+  .login-form {
+    text-align: left;
+  }
+  
+  .login-form label {
+    font-size: 0.9rem;
+    color: #6b6b80;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4b4b6a;
+  }
+  
+  /* Campo de contraseña con ícono de visibilidad */
+  .password-input {
+    position: relative;
+  }
+  
+  .password-input .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  /* Opciones del formulario */
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-options label {
+    font-size: 0.85rem;
+  }
+  
+  .forgot-password {
+    color: #5f73ff;
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  
+  /* Botón de login */
+  .login-button {
+    background: #5f73ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background: #4b5fcc;
+  }
+  
+  /* Texto de registro */
+  .register-text {
+    font-size: 0.85rem;
+    color: #9e9eaf;
+    margin-top: 1.5rem;
+  }
+  
+  .register-text a {
+    color: #5f73ff;
+    text-decoration: none;
+  }
